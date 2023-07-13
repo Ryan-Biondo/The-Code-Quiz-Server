@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What is the Z-Index and how is it used?",
+    "choices": [
+      "It sets the custom order of elements along the Z-axis",
+      "It sets the width and height of elements",
+      "It sets the depth effect of 3D transformed elements",
+      "None of the above"
+    ],
+    "correctAnswer": "It sets the custom order of elements along the Z-axis",
+    "explanation": "The z-index property in CSS controls the vertical stacking order of elements that overlap. An element with a higher z-index is displayed in front of an element with a lower z-index."
+  },
+  {
+    "id": 2,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does the CSS rule '@media' do?",
+    "choices": [
+      "It includes a block of CSS properties only if a certain condition is true",
+      "It provides alternative styles for different devices",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Both a and b",
+    "explanation": "The @media rule is used in media queries to apply different styles for different media types/devices. It can test many things, such as width and height of the viewport, the device-orientation, and more."
+  },
+  {
+    "id": 3,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does 'display: flex' do?",
+    "choices": [
+      "It sets the flex container to a block level",
+      "It sets the flex container to an inline level",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "It sets the flex container to a block level",
+    "explanation": "The 'flex' value of the 'display' property sets the element as a block level flex container. This enables a flex context for all its direct children."
+  },
+  {
+    "id": 4,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does 'display: inline-flex' do?",
+    "choices": [
+      "It sets the flex container to a block level",
+      "It sets the flex container to an inline level",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "It sets the flex container to an inline level",
+    "explanation": "The 'inline-flex' value of the 'display' property sets the element as an inline level flex container. This enables a flex context for all its direct children."
+  },
+  {
+    "id": 5,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What is 'Specificity' in CSS?",
+    "choices": [
+      "It's a measure of how specific a selector's selection will be",
+      "It's the process of determining which CSS rule applies to an element",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Both a and b",
+    "explanation": "Specificity is a process of determining which CSS rule will be applied to an element. It's calculated based on the different types of selectors in a rule's selector list."
+  },
+  {
+    "id": 6,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What are CSS Preprocessors?",
+    "choices": [
+      "They are scripts that extend the default capabilities of CSS",
+      "They are scripts that process your CSS before it gets loaded into the browser",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Both a and b",
+    "explanation": "CSS preprocessors are scripting languages that extend the default capabilities of CSS. They are processed into regular CSS before the CSS file gets loaded in the browser."
+  },
+  {
+    "id": 7,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does the 'content' property do in CSS?",
+    "choices": [
+      "It is used with the :before and :after pseudo-elements, to insert generated content",
+      "It specifies the content of a table's cell",
+      "It specifies the content of a form's input",
+      "None of the above"
+    ],
+    "correctAnswer": "It is used with the :before and :after pseudo-elements, to insert generated content",
+    "explanation": "The 'content' property is used with the :before and :after pseudo-elements, to insert generated content."
+  },
+  {
+    "id": 8,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "Which of these is NOT a valid blend mode in CSS?",
+    "choices": ["multiply", "screen", "lighten", "sharpen"],
+    "correctAnswer": "sharpen",
+    "explanation": "The 'sharpen' is not a valid blend mode in CSS. Some of the valid blend modes are: 'multiply', 'screen', 'overlay', 'darken', 'lighten', 'color-dodge', 'saturation', 'color', and 'luminosity'."
+  },
+  {
+    "id": 9,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What is the use of the !important rule in CSS?",
+    "choices": [
+      "It gives a CSS rule higher importance",
+      "It hides a CSS rule",
+      "It comments out a CSS rule",
+      "None of the above"
+    ],
+    "correctAnswer": "It gives a CSS rule higher importance",
+    "explanation": "The !important rule in CSS is used to make a particular property and value the most important. This means it will override any other declarations of this property."
+  },
+  {
+    "id": 10,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What is the purpose of the box-sizing property in CSS?",
+    "choices": [
+      "To control the box model's behaviour",
+      "To change the size of the box",
+      "To center the box",
+      "None of the above"
+    ],
+    "correctAnswer": "To control the box model's behaviour",
+    "explanation": "The box-sizing property in CSS is used to alter the default CSS box model. It can be used to adjust the width and height properties to include content, padding, and borders."
+  },
+  {
+    "id": 11,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "Which of these CSS properties will NOT make a box disappear?",
+    "choices": [
+      "display: none",
+      "visibility: hidden",
+      "opacity: 0",
+      "color: transparent"
+    ],
+    "correctAnswer": "color: transparent",
+    "explanation": "'color: transparent' will only make the color of the text transparent but the element will still take up space in the layout. The other choices make the box invisible or remove it from the layout."
+  },
+  {
+    "id": 12,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "How can we achieve a responsive font size with CSS?",
+    "choices": [
+      "Using em units",
+      "Using vw units",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Both a and b",
+    "explanation": "Responsive font size can be achieved using both em and vw units. em units scale based on the parent font size, while vw units are based on viewport width."
+  },
+  {
+    "id": 13,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does the 'calc()' function do in CSS?",
+    "choices": [
+      "Performs a calculation to determine the property value",
+      "Calculates the number of characters in a string",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Performs a calculation to determine the property value",
+    "explanation": "The 'calc()' function in CSS performs a calculation to be used as the property value. This allows mathematical expressions with addition (+), subtraction (-), multiplication (*), and division (/) to be used as component values."
+  },
+  {
+    "id": 14,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What's the difference between 'block' and 'inline-block' in CSS?",
+    "choices": [
+      "Block takes up the full width available, and has a line break before and after it. Inline-block does not.",
+      "Inline-block takes up the full width available, and has a line break before and after it. Block does not.",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Block takes up the full width available, and has a line break before and after it. Inline-block does not.",
+    "explanation": "In CSS, 'block' elements take up the full width available, with a new line before and after. 'inline-block' elements allow other elements to sit to their left and right."
+  },
+  {
+    "id": 15,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What is the default value of the position property in CSS?",
+    "choices": ["absolute", "relative", "fixed", "static"],
+    "correctAnswer": "static",
+    "explanation": "The default value of the 'position' property in CSS is 'static', which means the element is not positioned in any special way and follows the normal flow of the page."
+  },
+  {
+    "id": 16,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does the CSS property 'object-fit' do?",
+    "choices": [
+      "It allows the content to fill the container while maintaining its aspect ratio",
+      "It adjusts the box model's behaviour",
+      "It applies a filter effect to an image",
+      "None of the above"
+    ],
+    "correctAnswer": "It allows the content to fill the container while maintaining its aspect ratio",
+    "explanation": "The 'object-fit' property specifies how an <img> or <video> should be resized to fit its container. It's commonly used to prevent distortion while scaling an object."
+  },
+  {
+    "id": 17,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What are the possible values of the 'align-items' property in CSS Flexbox?",
+    "choices": [
+      "start, end, center, baseline, stretch",
+      "flex-start, flex-end, center, space-between, space-around",
+      "start, center, end, space-between, space-around",
+      "flex-start, flex-end, center, baseline, stretch"
+    ],
+    "correctAnswer": "flex-start, flex-end, center, baseline, stretch",
+    "explanation": "The 'align-items' property in CSS Flexbox can take the following values: 'flex-start', 'flex-end', 'center', 'baseline', and 'stretch'."
+  },
+  {
+    "id": 18,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What's the difference between 'justify-content' and 'align-items' in CSS Flexbox?",
+    "choices": [
+      "'justify-content' aligns items along the horizontal axis, 'align-items' along the vertical axis",
+      "'align-items' aligns items along the horizontal axis, 'justify-content' along the vertical axis",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "'justify-content' aligns items along the horizontal axis, 'align-items' along the vertical axis",
+    "explanation": "In CSS Flexbox, 'justify-content' is used to align flex items along the horizontal axis, while 'align-items' is used for alignment along the vertical axis."
+  },
+  {
+    "id": 19,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does the 'nth-child()' selector do in CSS?",
+    "choices": [
+      "Selects the nth child element of a parent",
+      "Selects the nth parent element of a child",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Selects the nth child element of a parent",
+    "explanation": "The 'nth-child()' selector in CSS matches elements based on their position in a group of siblings. It selects the nth child element of a parent."
+  },
+  {
+    "id": 20,
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "What does the 'transform' property do in CSS?",
+    "choices": [
+      "Allows you to rotate, scale, move, or skew elements",
+      "Allows you to change the color of an element",
+      "Both a and b",
+      "None of the above"
+    ],
+    "correctAnswer": "Allows you to rotate, scale, move, or skew elements",
+    "explanation": "The 'transform' property in CSS applies a 2D or 3D transformation to an element. This allows you to rotate, scale, move, or skew elements."
+  }
+]

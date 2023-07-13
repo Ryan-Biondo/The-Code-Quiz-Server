@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "What does CSS stand for?",
+    "choices": [
+      "Cascading Style Sheets",
+      "Color Style Sheets",
+      "Computing Style Sheets",
+      "Creative Style Sheets"
+    ],
+    "correctAnswer": "Cascading Style Sheets",
+    "explanation": "CSS stands for Cascading Style Sheets. It is used for designing the layout of web pages."
+  },
+  {
+    "id": 2,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which CSS property is used to change the text color of an element?",
+    "choices": ["font-color", "color", "text-color", "None of the above"],
+    "correctAnswer": "color",
+    "explanation": "The 'color' property is used in CSS to change the text color of an element."
+  },
+  {
+    "id": 3,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "How do you add a background color for all <p> elements?",
+    "choices": [
+      "all.p {background-color: #FFFFFF;}",
+      "p.all {background-color: #FFFFFF;}",
+      "p {background-color: #FFFFFF;}",
+      "p.every {background-color: #FFFFFF;}"
+    ],
+    "correctAnswer": "p {background-color: #FFFFFF;}",
+    "explanation": "You can add a background color for all <p> elements by using the 'background-color' property on 'p'."
+  },
+  {
+    "id": 4,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which property is used to change the font of an element?",
+    "choices": ["text-style", "text-font", "font", "None of the above"],
+    "correctAnswer": "font",
+    "explanation": "The 'font' property is used in CSS to change the font of an element."
+  },
+  {
+    "id": 5,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "How do you select an element with id 'demo'?",
+    "choices": [".demo", "#demo", "demo", "*demo"],
+    "correctAnswer": "#demo",
+    "explanation": "In CSS, an id selector is defined with a '#'."
+  },
+  {
+    "id": 6,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which property is used to change the left margin of an element?",
+    "choices": ["indent", "margin-left", "spacing-left", "padding-left"],
+    "correctAnswer": "margin-left",
+    "explanation": "The 'margin-left' property is used in CSS to change the left margin of an element."
+  },
+  {
+    "id": 7,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which CSS property controls the text size?",
+    "choices": ["text-size", "font-style", "font-size", "text-style"],
+    "correctAnswer": "font-size",
+    "explanation": "The 'font-size' property is used in CSS to control the text size."
+  },
+  {
+    "id": 8,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "What is the correct CSS syntax?",
+    "choices": [
+      "{body:color=black;}",
+      "{body;color:black;}",
+      "body:color=black;",
+      "body {color: black;}"
+    ],
+    "correctAnswer": "body {color: black;}",
+    "explanation": "The correct CSS syntax is: 'selector {property: value;}'"
+  },
+  {
+    "id": 9,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which property is used to change the background color?",
+    "choices": ["bgcolor", "color", "background-color", "None of the above"],
+    "correctAnswer": "background-color",
+    "explanation": "The 'background-color' property is used in CSS to change the background color of an element."
+  },
+  {
+    "id": 10,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which CSS property is used to control the text alignment?",
+    "choices": ["text-align", "font-align", "align", "text-layout"],
+    "correctAnswer": "text-align",
+    "explanation": "The 'text-align' property in CSS is used to control the alignment of text."
+  },
+  {
+    "id": 11,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "How do you make each word in a text start with a capital letter?",
+    "choices": [
+      "text-transform:capitalize",
+      "You can't do that with CSS",
+      "text-transform:uppercase",
+      "text-transform:lowercase"
+    ],
+    "correctAnswer": "text-transform:capitalize",
+    "explanation": "The 'text-transform: capitalize' property-value pair in CSS makes the first character of each word in a text uppercase."
+  },
+  {
+    "id": 12,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "What does the CSS 'border' property do?",
+    "choices": [
+      "Determines the width of the border",
+      "Determines the style of the border",
+      "Determines the color of the border",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "The CSS 'border' property can be used to set the width, style, and color of an element's border."
+  },
+  {
+    "id": 13,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "How do you select elements with class name 'test'?",
+    "choices": [".test", "*test", "#test", "test"],
+    "correctAnswer": ".test",
+    "explanation": "In CSS, a class selector is defined with a '.'"
+  },
+  {
+    "id": 14,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "How do you select all p elements inside div elements?",
+    "choices": ["div p", "div.p", "div + p", "div > p"],
+    "correctAnswer": "div p",
+    "explanation": "The selector 'div p' in CSS selects all 'p' elements inside 'div' elements."
+  },
+  {
+    "id": 15,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "What is the default value of the 'position' property in CSS?",
+    "choices": ["relative", "fixed", "absolute", "static"],
+    "correctAnswer": "static",
+    "explanation": "The default value of the 'position' property in CSS is 'static'."
+  },
+  {
+    "id": 16,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "How do you display hyperlinks without an underline?",
+    "choices": [
+      "a {text-decoration:no-underline;}",
+      "a {decoration:no-underline;}",
+      "a {text-decoration:none;}",
+      "a {underline:none;}"
+    ],
+    "correctAnswer": "a {text-decoration:none;}",
+    "explanation": "The 'text-decoration' property in CSS is used to add or remove decorations from text."
+  },
+  {
+    "id": 17,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "What does 'px' stand for in CSS?",
+    "choices": ["Pixel", "Percentage", "Picture", "None of the above"],
+    "correctAnswer": "Pixel",
+    "explanation": "In CSS, 'px' stands for pixel, which is a common unit of measurement."
+  },
+  {
+    "id": 18,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which property is used to set the background image of an element?",
+    "choices": [
+      "background:img",
+      "background-image",
+      "background:src",
+      "background-source"
+    ],
+    "correctAnswer": "background-image",
+    "explanation": "The 'background-image' property in CSS sets the background image of an element."
+  },
+  {
+    "id": 19,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "What does the 'z-index' property specify?",
+    "choices": [
+      "The width of the content area",
+      "The stacking order of elements",
+      "The height of the content area",
+      "The orientation of the content"
+    ],
+    "correctAnswer": "The stacking order of elements",
+    "explanation": "The 'z-index' property in CSS specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order."
+  },
+  {
+    "id": 20,
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which of the following is a valid CSS comment?",
+    "choices": [
+      "/* This is a comment */",
+      "// This is a comment",
+      "<!-- This is a comment -->",
+      "' This is a comment"
+    ],
+    "correctAnswer": "/* This is a comment */",
+    "explanation": "Comments in CSS are written with the '/* comment */' syntax."
+  }
+]

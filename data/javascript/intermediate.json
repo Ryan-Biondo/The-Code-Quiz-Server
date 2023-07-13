@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What does the 'this' keyword refer to in a method?",
+    "choices": [
+      "The object that the method is a property of",
+      "The method itself",
+      "The first argument passed to the method",
+      "None of the above"
+    ],
+    "correctAnswer": "The object that the method is a property of",
+    "explanation": "In a method, 'this' refers to the object it belongs to."
+  },
+  {
+    "id": 2,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "Which of the following is a way to create a new object in JavaScript?",
+    "choices": [
+      "var obj = {}",
+      "var obj = new Object()",
+      "var obj = Object.create(proto)",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "All three are common ways to create a new object in JavaScript."
+  },
+  {
+    "id": 3,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "Which built-in method returns the length of the string?",
+    "choices": ["length()", "size()", "index()", "None of the above"],
+    "correctAnswer": "length()",
+    "explanation": "The 'length' property returns the length of a string."
+  },
+  {
+    "id": 4,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "Which of the following will remove an element from the end of an array?",
+    "choices": ["shift()", "pop()", "push()", "splice()"],
+    "correctAnswer": "pop()",
+    "explanation": "The 'pop()' method removes the last element from an array and returns that element."
+  },
+  {
+    "id": 5,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "Which method can be used to decode a JSON string?",
+    "choices": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.decode()",
+      "JSON.load()"
+    ],
+    "correctAnswer": "JSON.parse()",
+    "explanation": "The 'JSON.parse()' method is used to parse a JSON string and convert it into a JavaScript object."
+  },
+  {
+    "id": 6,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What will be the output of 'console.log(typeof null)' in JavaScript?",
+    "choices": ["'undefined'", "'null'", "'object'", "'None of the above'"],
+    "correctAnswer": "'object'",
+    "explanation": "In JavaScript, 'typeof null' will return 'object'."
+  },
+  {
+    "id": 7,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "Which of the following is not a reserved word in JavaScript?",
+    "choices": ["interface", "throws", "program", "short"],
+    "correctAnswer": "program",
+    "explanation": "'program' is not a reserved word in JavaScript."
+  },
+  {
+    "id": 8,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "choices": [
+      "'==' checks value but '===' checks type",
+      "'==' checks value and type but '===' only checks value",
+      "'==' checks value but '===' checks value and type",
+      "There is no difference"
+    ],
+    "correctAnswer": "'==' checks value but '===' checks value and type",
+    "explanation": "'==' checks for equality only after doing any necessary type conversions. '===' checks for equality without doing type conversion."
+  },
+  {
+    "id": 9,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What will the code 'console.log([1] + [2])' output?",
+    "choices": ["3", "[3]", "[1, 2]", "12"],
+    "correctAnswer": "12",
+    "explanation": "When arrays are concatenated using '+', JavaScript converts them to strings first. So '[1]' becomes '1' and '[2]' becomes '2'. Hence the output will be '12'."
+  },
+  {
+    "id": 10,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What is a closure in JavaScript?",
+    "choices": [
+      "A function inside another function",
+      "A function with access to its own scope, the outer function's scope, and the global scope",
+      "A block of code enclosed by curly braces",
+      "None of the above"
+    ],
+    "correctAnswer": "A function with access to its own scope, the outer function's scope, and the global scope",
+    "explanation": "A closure in JavaScript is a function that has access to its own scope, the outer function's scope, and the global scope. This allows the function to access variables from an outer function even after that function has finished running."
+  },
+
+  {
+    "id": 11,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What does the 'this' keyword refer to inside a regular function call?",
+    "choices": [
+      "The object that was called",
+      "The global object (window in a browser)",
+      "The function itself",
+      "Undefined"
+    ],
+    "correctAnswer": "The global object (window in a browser)",
+    "explanation": "In a regular function call, 'this' refers to the global object (window in a browser)."
+  },
+  {
+    "id": 12,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What will the following JavaScript code output: console.log(typeof typeof 1);",
+    "choices": ["'Number'", "'String'", "'Object'", "'Undefined'"],
+    "correctAnswer": "'String'",
+    "explanation": "'typeof 1' returns 'number'. However, the typeof a 'number' is a 'string'. Hence, the output is 'string'."
+  },
+  {
+    "id": 13,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between '==' and '===' operators in JavaScript?",
+    "choices": [
+      "'==' compares value, '===' compares value and type",
+      "'==' compares type, '===' compares value",
+      "'==' is used for comparison, '===' is used for assignment",
+      "There is no difference"
+    ],
+    "correctAnswer": "'==' compares value, '===' compares value and type",
+    "explanation": "'==' checks only for equality in value whereas '===' is a stricter equality test and returns false if either the value or the type of the two variables are different."
+  },
+  {
+    "id": 14,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What will the following JavaScript code output: console.log(0.1 + 0.2 === 0.3);",
+    "choices": ["True", "False", "0.30000000000000004", "NaN"],
+    "correctAnswer": "False",
+    "explanation": "This will output 'false' due to floating point precision in JavaScript. The sum of 0.1 and 0.2 actually returns 0.30000000000000004 and not 0.3."
+  },
+  {
+    "id": 15,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What method can be used to loop through an array in JavaScript?",
+    "choices": ["for", "while", "foreach", "All of the above"],
+    "correctAnswer": "All of the above",
+    "explanation": "All three methods: 'for', 'while', and 'foreach' can be used to loop through an array in JavaScript."
+  },
+  {
+    "id": 16,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What function can be used to parse a JSON string into a JavaScript object?",
+    "choices": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.decode()",
+      "None of the above"
+    ],
+    "correctAnswer": "JSON.parse()",
+    "explanation": "The 'JSON.parse()' function is used to parse a JSON string into a JavaScript object."
+  },
+  {
+    "id": 17,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "How can you prevent a form from submitting in JavaScript?",
+    "choices": [
+      "event.preventDefault()",
+      "event.stopSubmitting()",
+      "event.noSubmit()",
+      "None of the above"
+    ],
+    "correctAnswer": "event.preventDefault()",
+    "explanation": "You can prevent a form from submitting by calling 'event.preventDefault()' in the form's submit event."
+  },
+  {
+    "id": 18,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "Which method removes the last element from an array and returns that element?",
+    "choices": ["pop()", "push()", "shift()", "unshift()"],
+    "correctAnswer": "pop()",
+    "explanation": "The 'pop()' method removes the last element from an array and returns that element."
+  },
+  {
+    "id": 19,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "How do you declare a JavaScript variable?",
+    "choices": [
+      "var carName",
+      "variable carName",
+      "v carName",
+      "var = carName"
+    ],
+    "correctAnswer": "var carName",
+    "explanation": "In JavaScript, you declare a variable using the 'var' keyword, followed by the name of the variable."
+  },
+  {
+    "id": 20,
+    "category": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between 'null' and 'undefined'?",
+    "choices": [
+      "'null' is an object, 'undefined' is a type",
+      "'undefined' is an object, 'null' is a type",
+      "'null' means no value or no object, 'undefined' means a variable has been declared but has not yet been assigned a value",
+      "There is no difference"
+    ],
+    "correctAnswer": "'null' means no value or no object, 'undefined' means a variable has been declared but has not yet been assigned a value",
+    "explanation": "'null' means no value or no object. It implies a missing object. On the other hand, 'undefined' means a variable has been declared but has not yet been assigned a value."
+  }
+]
