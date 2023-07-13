@@ -31,9 +31,9 @@
       "To catch common coding mistakes and 'unsafe' actions",
       "To use the latest version of JavaScript",
       "To enable strict mode, changing previously accepted 'bad syntax' into real errors",
-      "Both A and C"
+      "A and C"
     ],
-    "correctAnswer": "Both A and C",
+    "correctAnswer": "A and C",
     "explanation": "The 'use strict' directive was introduced to prevent common mistakes in JavaScript code. In strict mode, JavaScript changes 'bad syntax' into real errors."
   },
   {
@@ -196,10 +196,10 @@
     "choices": [
       "Moving function declarations to the top of the scope",
       "Moving variable declarations to the top of the scope",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
-    "correctAnswer": "Both All of these",
+    "correctAnswer": "All of these",
     "explanation": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope before the code has been executed."
   },
   {

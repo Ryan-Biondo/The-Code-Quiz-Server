@@ -21,10 +21,10 @@
     "choices": [
       "It includes a block of CSS properties only if a certain condition is true",
       "It provides alternative styles for different devices",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
-    "correctAnswer": "Both All of these",
+    "correctAnswer": "All of these",
     "explanation": "The @media rule is used in media queries to apply different styles for different media types/devices. It can test many things, such as width and height of the viewport, the device-orientation, and more."
   },
   {
@@ -35,7 +35,7 @@
     "choices": [
       "It sets the flex container to a block level",
       "It sets the flex container to an inline level",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
     "correctAnswer": "It sets the flex container to a block level",
@@ -49,7 +49,7 @@
     "choices": [
       "It sets the flex container to a block level",
       "It sets the flex container to an inline level",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
     "correctAnswer": "It sets the flex container to an inline level",
@@ -63,10 +63,10 @@
     "choices": [
       "It's a measure of how specific a selector's selection will be",
       "It's the process of determining which CSS rule applies to an element",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
-    "correctAnswer": "Both All of these",
+    "correctAnswer": "All of these",
     "explanation": "Specificity is a process of determining which CSS rule will be applied to an element. It's calculated based on the different types of selectors in a rule's selector list."
   },
   {
@@ -77,10 +77,10 @@
     "choices": [
       "They are scripts that extend the default capabilities of CSS",
       "They are scripts that process your CSS before it gets loaded into the browser",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
-    "correctAnswer": "Both All of these",
+    "correctAnswer": "All of these",
     "explanation": "CSS preprocessors are scripting languages that extend the default capabilities of CSS. They are processed into regular CSS before the CSS file gets loaded in the browser."
   },
   {
@@ -156,10 +156,10 @@
     "choices": [
       "Using em units",
       "Using vw units",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
-    "correctAnswer": "Both All of these",
+    "correctAnswer": "All of these",
     "explanation": "Responsive font size can be achieved using both em and vw units. em units scale based on the parent font size, while vw units are based on viewport width."
   },
   {
@@ -170,7 +170,7 @@
     "choices": [
       "Performs a calculation to determine the property value",
       "Calculates the number of characters in a string",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
     "correctAnswer": "Performs a calculation to determine the property value",
@@ -184,7 +184,7 @@
     "choices": [
       "Block takes up the full width available, and has a line break before and after it. Inline-block does not.",
       "Inline-block takes up the full width available, and has a line break before and after it. Block does not.",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
     "correctAnswer": "Block takes up the full width available, and has a line break before and after it. Inline-block does not.",
@@ -235,7 +235,7 @@
     "choices": [
       "'justify-content' aligns items along the horizontal axis, 'align-items' along the vertical axis",
       "'align-items' aligns items along the horizontal axis, 'justify-content' along the vertical axis",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
     "correctAnswer": "'justify-content' aligns items along the horizontal axis, 'align-items' along the vertical axis",
@@ -249,7 +249,7 @@
     "choices": [
       "Selects the nth child element of a parent",
       "Selects the nth parent element of a child",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
     "correctAnswer": "Selects the nth child element of a parent",
@@ -263,7 +263,7 @@
     "choices": [
       "Allows you to rotate, scale, move, or skew elements",
       "Allows you to change the color of an element",
-      "Both All of these",
+      "All of these",
       "None of these"
     ],
     "correctAnswer": "Allows you to rotate, scale, move, or skew elements",
