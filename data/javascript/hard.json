@@ -8,7 +8,7 @@
       "Moving all variable and function declarations to the top of the current scope",
       "Moving all variable and function declarations to the bottom of the current scope",
       "A technique for memory optimization",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "Moving all variable and function declarations to the top of the current scope",
     "explanation": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope before code execution."
@@ -68,7 +68,7 @@
       "For creating private properties of objects",
       "For iteration",
       "For type coercion",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "For creating private properties of objects",
     "explanation": "Symbols in JavaScript are used to create unique identifiers for object properties, often used for private properties."
@@ -196,10 +196,10 @@
     "choices": [
       "Moving function declarations to the top of the scope",
       "Moving variable declarations to the top of the scope",
-      "Both A and B",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
-    "correctAnswer": "Both A and B",
+    "correctAnswer": "Both All of these",
     "explanation": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope before the code has been executed."
   },
   {

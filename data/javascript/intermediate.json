@@ -8,7 +8,7 @@
       "The object that the method is a property of",
       "The method itself",
       "The first argument passed to the method",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "The object that the method is a property of",
     "explanation": "In a method, 'this' refers to the object it belongs to."
@@ -32,7 +32,7 @@
     "category": "JavaScript",
     "difficulty": "Intermediate",
     "question": "Which built-in method returns the length of the string?",
-    "choices": ["length()", "size()", "index()", "None of the above"],
+    "choices": ["length()", "size()", "index()", "None of these"],
     "correctAnswer": "length()",
     "explanation": "The 'length' property returns the length of a string."
   },
@@ -64,7 +64,7 @@
     "category": "JavaScript",
     "difficulty": "Intermediate",
     "question": "What will be the output of 'console.log(typeof null)' in JavaScript?",
-    "choices": ["'undefined'", "'null'", "'object'", "'None of the above'"],
+    "choices": ["'undefined'", "'null'", "'object'", "'None of these'"],
     "correctAnswer": "'object'",
     "explanation": "In JavaScript, 'typeof null' will return 'object'."
   },
@@ -109,7 +109,7 @@
       "A function inside another function",
       "A function with access to its own scope, the outer function's scope, and the global scope",
       "A block of code enclosed by curly braces",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "A function with access to its own scope, the outer function's scope, and the global scope",
     "explanation": "A closure in JavaScript is a function that has access to its own scope, the outer function's scope, and the global scope. This allows the function to access variables from an outer function even after that function has finished running."
@@ -179,7 +179,7 @@
       "JSON.parse()",
       "JSON.stringify()",
       "JSON.decode()",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "JSON.parse()",
     "explanation": "The 'JSON.parse()' function is used to parse a JSON string into a JavaScript object."
@@ -193,7 +193,7 @@
       "event.preventDefault()",
       "event.stopSubmitting()",
       "event.noSubmit()",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "event.preventDefault()",
     "explanation": "You can prevent a form from submitting by calling 'event.preventDefault()' in the form's submit event."

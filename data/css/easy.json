@@ -18,7 +18,7 @@
     "category": "CSS",
     "difficulty": "Easy",
     "question": "Which CSS property is used to change the text color of an element?",
-    "choices": ["font-color", "color", "text-color", "None of the above"],
+    "choices": ["font-color", "color", "text-color", "None of these"],
     "correctAnswer": "color",
     "explanation": "The 'color' property is used in CSS to change the text color of an element."
   },
@@ -41,7 +41,7 @@
     "category": "CSS",
     "difficulty": "Easy",
     "question": "Which property is used to change the font of an element?",
-    "choices": ["text-style", "text-font", "font", "None of the above"],
+    "choices": ["text-style", "text-font", "font", "None of these"],
     "correctAnswer": "font",
     "explanation": "The 'font' property is used in CSS to change the font of an element."
   },
@@ -91,7 +91,7 @@
     "category": "CSS",
     "difficulty": "Easy",
     "question": "Which property is used to change the background color?",
-    "choices": ["bgcolor", "color", "background-color", "None of the above"],
+    "choices": ["bgcolor", "color", "background-color", "None of these"],
     "correctAnswer": "background-color",
     "explanation": "The 'background-color' property is used in CSS to change the background color of an element."
   },
@@ -178,7 +178,7 @@
     "category": "CSS",
     "difficulty": "Easy",
     "question": "What does 'px' stand for in CSS?",
-    "choices": ["Pixel", "Percentage", "Picture", "None of the above"],
+    "choices": ["Pixel", "Percentage", "Picture", "None of these"],
     "correctAnswer": "Pixel",
     "explanation": "In CSS, 'px' stands for pixel, which is a common unit of measurement."
   },

@@ -8,7 +8,7 @@
       "It sets the custom order of elements along the Z-axis",
       "It sets the width and height of elements",
       "It sets the depth effect of 3D transformed elements",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "It sets the custom order of elements along the Z-axis",
     "explanation": "The z-index property in CSS controls the vertical stacking order of elements that overlap. An element with a higher z-index is displayed in front of an element with a lower z-index."
@@ -21,10 +21,10 @@
     "choices": [
       "It includes a block of CSS properties only if a certain condition is true",
       "It provides alternative styles for different devices",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
-    "correctAnswer": "Both a and b",
+    "correctAnswer": "Both All of these",
     "explanation": "The @media rule is used in media queries to apply different styles for different media types/devices. It can test many things, such as width and height of the viewport, the device-orientation, and more."
   },
   {
@@ -35,8 +35,8 @@
     "choices": [
       "It sets the flex container to a block level",
       "It sets the flex container to an inline level",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
     "correctAnswer": "It sets the flex container to a block level",
     "explanation": "The 'flex' value of the 'display' property sets the element as a block level flex container. This enables a flex context for all its direct children."
@@ -49,8 +49,8 @@
     "choices": [
       "It sets the flex container to a block level",
       "It sets the flex container to an inline level",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
     "correctAnswer": "It sets the flex container to an inline level",
     "explanation": "The 'inline-flex' value of the 'display' property sets the element as an inline level flex container. This enables a flex context for all its direct children."
@@ -63,10 +63,10 @@
     "choices": [
       "It's a measure of how specific a selector's selection will be",
       "It's the process of determining which CSS rule applies to an element",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
-    "correctAnswer": "Both a and b",
+    "correctAnswer": "Both All of these",
     "explanation": "Specificity is a process of determining which CSS rule will be applied to an element. It's calculated based on the different types of selectors in a rule's selector list."
   },
   {
@@ -77,10 +77,10 @@
     "choices": [
       "They are scripts that extend the default capabilities of CSS",
       "They are scripts that process your CSS before it gets loaded into the browser",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
-    "correctAnswer": "Both a and b",
+    "correctAnswer": "Both All of these",
     "explanation": "CSS preprocessors are scripting languages that extend the default capabilities of CSS. They are processed into regular CSS before the CSS file gets loaded in the browser."
   },
   {
@@ -92,7 +92,7 @@
       "It is used with the :before and :after pseudo-elements, to insert generated content",
       "It specifies the content of a table's cell",
       "It specifies the content of a form's input",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "It is used with the :before and :after pseudo-elements, to insert generated content",
     "explanation": "The 'content' property is used with the :before and :after pseudo-elements, to insert generated content."
@@ -115,7 +115,7 @@
       "It gives a CSS rule higher importance",
       "It hides a CSS rule",
       "It comments out a CSS rule",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "It gives a CSS rule higher importance",
     "explanation": "The !important rule in CSS is used to make a particular property and value the most important. This means it will override any other declarations of this property."
@@ -129,7 +129,7 @@
       "To control the box model's behaviour",
       "To change the size of the box",
       "To center the box",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "To control the box model's behaviour",
     "explanation": "The box-sizing property in CSS is used to alter the default CSS box model. It can be used to adjust the width and height properties to include content, padding, and borders."
@@ -156,10 +156,10 @@
     "choices": [
       "Using em units",
       "Using vw units",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
-    "correctAnswer": "Both a and b",
+    "correctAnswer": "Both All of these",
     "explanation": "Responsive font size can be achieved using both em and vw units. em units scale based on the parent font size, while vw units are based on viewport width."
   },
   {
@@ -170,8 +170,8 @@
     "choices": [
       "Performs a calculation to determine the property value",
       "Calculates the number of characters in a string",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
     "correctAnswer": "Performs a calculation to determine the property value",
     "explanation": "The 'calc()' function in CSS performs a calculation to be used as the property value. This allows mathematical expressions with addition (+), subtraction (-), multiplication (*), and division (/) to be used as component values."
@@ -184,8 +184,8 @@
     "choices": [
       "Block takes up the full width available, and has a line break before and after it. Inline-block does not.",
       "Inline-block takes up the full width available, and has a line break before and after it. Block does not.",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
     "correctAnswer": "Block takes up the full width available, and has a line break before and after it. Inline-block does not.",
     "explanation": "In CSS, 'block' elements take up the full width available, with a new line before and after. 'inline-block' elements allow other elements to sit to their left and right."
@@ -208,7 +208,7 @@
       "It allows the content to fill the container while maintaining its aspect ratio",
       "It adjusts the box model's behaviour",
       "It applies a filter effect to an image",
-      "None of the above"
+      "None of these"
     ],
     "correctAnswer": "It allows the content to fill the container while maintaining its aspect ratio",
     "explanation": "The 'object-fit' property specifies how an <img> or <video> should be resized to fit its container. It's commonly used to prevent distortion while scaling an object."
@@ -235,8 +235,8 @@
     "choices": [
       "'justify-content' aligns items along the horizontal axis, 'align-items' along the vertical axis",
       "'align-items' aligns items along the horizontal axis, 'justify-content' along the vertical axis",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
     "correctAnswer": "'justify-content' aligns items along the horizontal axis, 'align-items' along the vertical axis",
     "explanation": "In CSS Flexbox, 'justify-content' is used to align flex items along the horizontal axis, while 'align-items' is used for alignment along the vertical axis."
@@ -249,8 +249,8 @@
     "choices": [
       "Selects the nth child element of a parent",
       "Selects the nth parent element of a child",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
     "correctAnswer": "Selects the nth child element of a parent",
     "explanation": "The 'nth-child()' selector in CSS matches elements based on their position in a group of siblings. It selects the nth child element of a parent."
@@ -263,8 +263,8 @@
     "choices": [
       "Allows you to rotate, scale, move, or skew elements",
       "Allows you to change the color of an element",
-      "Both a and b",
-      "None of the above"
+      "Both All of these",
+      "None of these"
     ],
     "correctAnswer": "Allows you to rotate, scale, move, or skew elements",
     "explanation": "The 'transform' property in CSS applies a 2D or 3D transformation to an element. This allows you to rotate, scale, move, or skew elements."
