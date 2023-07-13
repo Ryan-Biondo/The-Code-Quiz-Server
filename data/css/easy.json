@@ -127,9 +127,9 @@
       "Determines the width of the border",
       "Determines the style of the border",
       "Determines the color of the border",
-      "All of the above"
+      "All of these"
     ],
-    "correctAnswer": "All of the above",
+    "correctAnswer": "All of these",
     "explanation": "The CSS 'border' property can be used to set the width, style, and color of an element's border."
   },
   {

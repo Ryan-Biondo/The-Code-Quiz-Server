@@ -18,8 +18,8 @@
     "category": "JavaScript",
     "difficulty": "Hard",
     "question": "How does JavaScript handle asynchronous operations?",
-    "choices": ["Callbacks", "Promises", "Async/Await", "All of the above"],
-    "correctAnswer": "All of the above",
+    "choices": ["Callbacks", "Promises", "Async/Await", "All of these"],
+    "correctAnswer": "All of these",
     "explanation": "JavaScript handles asynchronous operations using Callbacks, Promises, and Async/Await."
   },
   {
@@ -29,11 +29,11 @@
     "question": "What is the purpose of JavaScript's 'use strict' statement?",
     "choices": [
       "To catch common coding mistakes and 'unsafe' actions",
-      "To use the latest version of JavaScript",
+      "None of these",
       "To enable strict mode, changing previously accepted 'bad syntax' into real errors",
-      "A and C"
+      "All of these"
     ],
-    "correctAnswer": "A and C",
+    "correctAnswer": "All of these",
     "explanation": "The 'use strict' directive was introduced to prevent common mistakes in JavaScript code. In strict mode, JavaScript changes 'bad syntax' into real errors."
   },
   {
@@ -45,7 +45,7 @@
       "An object representing a completion or failure of an asynchronous operation",
       "A technique for handling asynchronous code",
       "A data structure for managing multiple callbacks",
-      "All of the above"
+      "All of these"
     ],
     "correctAnswer": "An object representing a completion or failure of an asynchronous operation",
     "explanation": "A Promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation."
@@ -105,9 +105,9 @@
       "Copies properties from one object into another",
       "Spread elements of an iterable collection into both literal objects and arrays",
       "Concatenate arrays",
-      "All of the above"
+      "All of these"
     ],
-    "correctAnswer": "All of the above",
+    "correctAnswer": "All of these",
     "explanation": "The spread operator (...) in JavaScript is used to spread elements of an iterable collection (like an array) into both literal objects and arrays. It is also commonly used to concatenate arrays and to copy properties from one object to another."
   },
   {

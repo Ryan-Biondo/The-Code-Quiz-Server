@@ -22,9 +22,9 @@
       "var obj = {}",
       "var obj = new Object()",
       "var obj = Object.create(proto)",
-      "All of the above"
+      "All of these"
     ],
-    "correctAnswer": "All of the above",
+    "correctAnswer": "All of these",
     "explanation": "All three are common ways to create a new object in JavaScript."
   },
   {
@@ -166,8 +166,8 @@
     "category": "JavaScript",
     "difficulty": "Intermediate",
     "question": "What method can be used to loop through an array in JavaScript?",
-    "choices": ["for", "while", "foreach", "All of the above"],
-    "correctAnswer": "All of the above",
+    "choices": ["for", "while", "foreach", "All of these"],
+    "correctAnswer": "All of these",
     "explanation": "All three methods: 'for', 'while', and 'foreach' can be used to loop through an array in JavaScript."
   },
   {
