@@ -4,6 +4,9 @@
 
 This project is a web server that provides an API to serve quiz data to The Code Quiz client. The server is built with Node.js and Express.js, and it handles requests from our web client, and sends responses.
 
+The client can be found here:
+https://github.com/Ryan-Biondo/The-Code-Quiz-Client
+
 ## **Demo**
 
 <img src="demo.gif" width="800" />
@@ -46,13 +49,13 @@ server
 
 ## **Development Process**
 
-Project Organization: Primary task involved creating and organizing multiple components of a project. We also needed to split a monolithic application into a client-server model, creating effective coordination and synchronization between the two parts.
+- Project Organization: Primary task involved creating and organizing multiple components of a project. We also needed to split a monolithic application into a client-server model, creating effective coordination and synchronization between the two parts.
 
-Quiz Questions: Formatted quiz questions in a structured manner, ensuring the elimination of options like "Both a and b" and "None of the above". This was done to accommodate the randomization of quiz options and prevent any ambiguity in answers.
+- Quiz Questions: Formatted quiz questions in a structured manner, ensuring the elimination of options like "Both a and b" and "None of the above". This was done to accommodate the randomization of quiz options and prevent any ambiguity in answers.
 
-GitHub and Heroku Deployment: Dealt with unrelated Git histories and ensuring that the latest changes were effectively reflected in the Heroku app.
+- Heroku Deployment: Dealt with unrelated Git histories and ensuring that the latest changes were effectively reflected in the Heroku app.
 
-RESTful API Understanding: We delved into understanding the principles of RESTful APIs, which is crucial for the development and usage of modern web applications. This involved discussing CRUD operations, HTTP methods, status codes, and more.
+- More development process at https://github.com/Ryan-Biondo/The-Code-Quiz-Client
 
 ## **Future Enhancements**
 
