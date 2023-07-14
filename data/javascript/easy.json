@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which company developed JavaScript?",
+    "choices": ["Microsoft", "Sun Microsystems", "Netscape", "Oracle"],
+    "correctAnswer": "Netscape",
+    "explanation": "JavaScript was developed by Netscape."
+  },
+  {
+    "id": 2,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "How do you write 'Hello World' in an alert box?",
+    "choices": [
+      "msg('Hello World')",
+      "alertBox('Hello World')",
+      "alert('Hello World')",
+      "msgBox('Hello World')"
+    ],
+    "correctAnswer": "alert('Hello World')",
+    "explanation": "The 'alert()' method is used in JavaScript to display an alert box with a specified message."
+  },
+  {
+    "id": 3,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "How do you call a function named 'myFunction'?",
+    "choices": [
+      "call myFunction()",
+      "myFunction()",
+      "call function myFunction()",
+      "Call.myFunction()"
+    ],
+    "correctAnswer": "myFunction()",
+    "explanation": "To call a function in JavaScript, you simply use the function name followed by parentheses."
+  },
+  {
+    "id": 4,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "How to write an 'if' statement for executing some code if 'i' is NOT equal to 5?",
+    "choices": ["if i =! 5 then", "if (i != 5)", "if i <> 5", "if (i <> 5)"],
+    "correctAnswer": "if (i != 5)",
+    "explanation": "The '!=' operator is used in JavaScript to check for inequality."
+  },
+  {
+    "id": 5,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "How does a 'while' loop start?",
+    "choices": [
+      "while (i <= 10)",
+      "while i = 1 to 10",
+      "while (i <= 10; i++)",
+      "while i (1<=10)"
+    ],
+    "correctAnswer": "while (i <= 10)",
+    "explanation": "A 'while' loop in JavaScript is written as: while (condition). The loop will continue as long as the condition is true."
+  },
+  {
+    "id": 6,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "choices": [
+      "rnd(7.25)",
+      "Math.rnd(7.25)",
+      "Math.round(7.25)",
+      "round(7.25)"
+    ],
+    "correctAnswer": "Math.round(7.25)",
+    "explanation": "The 'Math.round()' method is used in JavaScript to round a number to the nearest integer."
+  },
+  {
+    "id": 7,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "JavaScript is the same as Java. True or False?",
+    "choices": ["True", "False"],
+    "correctAnswer": "False",
+    "explanation": "False, JavaScript and Java are two different programming languages with different syntax and use-cases."
+  },
+  {
+    "id": 8,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "choices": ["onmouseclick", "onmouseover", "onchange", "onclick"],
+    "correctAnswer": "onclick",
+    "explanation": "The 'onclick' event in JavaScript occurs when the user clicks on an HTML element."
+  },
+  {
+    "id": 9,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which operator is used to assign a value to a variable?",
+    "choices": ["*", "-", "=", "x"],
+    "correctAnswer": "=",
+    "explanation": "The '=' operator is used to assign a value to a variable."
+  },
+  {
+    "id": 10,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "What will the following code return: Boolean(10 > 9)",
+    "choices": ["NaN", "False", "True", "None of these"],
+    "correctAnswer": "True",
+    "explanation": "The 'Boolean()' function will return 'True' if the expression inside the parentheses is true. In this case, 10 is greater than 9, so the function will return 'True'."
+  },
+  {
+    "id": 11,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which of the following is a correct way to define a JavaScript variable?",
+    "choices": ["variable myVar", "var myVar", "myVar", "define myVar"],
+    "correctAnswer": "var myVar",
+    "explanation": "In JavaScript, we use the 'var' keyword to declare a variable."
+  },
+  {
+    "id": 12,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "What symbol is used to comment a line in JavaScript?",
+    "choices": ["//", "--", "**", "##"],
+    "correctAnswer": "//",
+    "explanation": "In JavaScript, we use '//' to comment a single line."
+  },
+  {
+    "id": 13,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which of the following is not a JavaScript data type?",
+    "choices": ["Number", "String", "Boolean", "Character"],
+    "correctAnswer": "Character",
+    "explanation": "In JavaScript, 'Character' is not a standalone data type. Individual characters are represented as 'String' data type."
+  },
+  {
+    "id": 14,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "What keyword is used to define a constant in JavaScript?",
+    "choices": ["let", "var", "const", "final"],
+    "correctAnswer": "const",
+    "explanation": "The 'const' keyword is used to declare a variable whose value cannot be changed."
+  },
+  {
+    "id": 15,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which method is used to add an element at the end of an array?",
+    "choices": ["push()", "pop()", "shift()", "unshift()"],
+    "correctAnswer": "push()",
+    "explanation": "The 'push()' method is used to add one or more elements to the end of an array"
+  },
+  {
+    "id": 16,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "What method can be used to find the largest number in a numeric array?",
+    "choices": [
+      "Math.max(numArray)",
+      "max(numArray)",
+      "Math.largest(numArray)",
+      "Math.highest(numArray)"
+    ],
+    "correctAnswer": "Math.max(...numArray)",
+    "explanation": "The 'Math.max()' method can be used in conjunction with the spread operator to find the largest number in a numeric array."
+  },
+  {
+    "id": 17,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which global object has a method for encoding a URI?",
+    "choices": ["Math", "Number", "encodeURI", "Global"],
+    "correctAnswer": "encodeURI",
+    "explanation": "'encodeURI()' is a global function in JavaScript that encodes a URI by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8 encoding of the character."
+  },
+  {
+    "id": 18,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "What method can be used to split a string into an array of substrings?",
+    "choices": ["split()", "divide()", "separate()", "break()"],
+    "correctAnswer": "split()",
+    "explanation": "The 'split()' method is used to split a string into an array of substrings and returns the new array."
+  },
+  {
+    "id": 19,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "Which operator can be used to compare two values for non-strict equality in JavaScript?",
+    "choices": ["==", "===", "!=", "!=="],
+    "correctAnswer": "==",
+    "explanation": "The '==' operator is used to compare two values for non-strict equality, without considering the datatype."
+  },
+  {
+    "id": 20,
+    "category": "JavaScript",
+    "difficulty": "Easy",
+    "question": "How would you declare a JavaScript object?",
+    "choices": [
+      "var obj = (prop1: 'value1', prop2: 'value2')",
+      "var obj = [prop1: 'value1', prop2: 'value2']",
+      "var obj = {prop1: 'value1', prop2: 'value2'}",
+      "var obj = 'prop1: value1, prop2: value2'"
+    ],
+    "correctAnswer": "var obj = {prop1: 'value1', prop2: 'value2'}",
+    "explanation": "In JavaScript, objects are defined using braces {} and the properties and values are specified within those braces."
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is 'hoisting' in JavaScript?",
+    "choices": [
+      "Moving all variable and function declarations to the top of the current scope",
+      "Moving all variable and function declarations to the bottom of the current scope",
+      "A technique for memory optimization",
+      "None of these"
+    ],
+    "correctAnswer": "Moving all variable and function declarations to the top of the current scope",
+    "explanation": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope before code execution."
+  },
+  {
+    "id": 2,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "How does JavaScript handle asynchronous operations?",
+    "choices": ["Callbacks", "Promises", "Async/Await", "All of these"],
+    "correctAnswer": "All of these",
+    "explanation": "JavaScript handles asynchronous operations using Callbacks, Promises, and Async/Await."
+  },
+  {
+    "id": 3,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is the purpose of JavaScript's 'use strict' statement?",
+    "choices": [
+      "To catch common coding mistakes and 'unsafe' actions",
+      "None of these",
+      "To enable strict mode, changing previously accepted 'bad syntax' into real errors",
+      "All of these"
+    ],
+    "correctAnswer": "All of these",
+    "explanation": "The 'use strict' directive was introduced to prevent common mistakes in JavaScript code. In strict mode, JavaScript changes 'bad syntax' into real errors."
+  },
+  {
+    "id": 4,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is a 'Promise' in JavaScript?",
+    "choices": [
+      "An object representing a completion or failure of an asynchronous operation",
+      "A technique for handling asynchronous code",
+      "A data structure for managing multiple callbacks",
+      "All of these"
+    ],
+    "correctAnswer": "An object representing a completion or failure of an asynchronous operation",
+    "explanation": "A Promise in JavaScript is an object representing the eventual completion or failure of an asynchronous operation."
+  },
+  {
+    "id": 5,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is the output of 'console.log([1,2] + [3,4])' in JavaScript?",
+    "choices": ["'1,23,4'", "'1,2,3,4'", "[1,2,3,4]", "'1234'"],
+    "correctAnswer": "'1,23,4'",
+    "explanation": "When you use the plus operator on arrays, they are first converted to strings, and then concatenated, which results in '1,23,4'."
+  },
+  {
+    "id": 6,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What are JavaScript 'Symbols' used for?",
+    "choices": [
+      "For creating private properties of objects",
+      "For iteration",
+      "For type coercion",
+      "None of these"
+    ],
+    "correctAnswer": "For creating private properties of objects",
+    "explanation": "Symbols in JavaScript are used to create unique identifiers for object properties, often used for private properties."
+  },
+  {
+    "id": 7,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is the difference between 'null' and 'undefined'?",
+    "choices": [
+      "'null' is an object, 'undefined' is a type",
+      "'undefined' is an object, 'null' is a type",
+      "'null' means no value or no object, 'undefined' means a variable has been declared but has not yet been assigned a value",
+      "There is no difference"
+    ],
+    "correctAnswer": "'null' means no value or no object, 'undefined' means a variable has been declared but has not yet been assigned a value",
+    "explanation": "'null' means no value or no object. It implies a missing object. On the other hand, 'undefined' means a variable has been declared but has not yet been assigned a value."
+  },
+  {
+    "id": 8,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which one is not a JavaScript framework or library?",
+    "choices": ["React", "Vue", "Angular", "JavaFX"],
+    "correctAnswer": "JavaFX",
+    "explanation": "JavaFX is not a JavaScript framework or library. It is a Java library used to build Rich Internet Applications."
+  },
+  {
+    "id": 9,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What does the spread operator (...) do in JavaScript?",
+    "choices": [
+      "Copies properties from one object into another",
+      "Spread elements of an iterable collection into both literal objects and arrays",
+      "Concatenate arrays",
+      "All of these"
+    ],
+    "correctAnswer": "All of these",
+    "explanation": "The spread operator (...) in JavaScript is used to spread elements of an iterable collection (like an array) into both literal objects and arrays. It is also commonly used to concatenate arrays and to copy properties from one object to another."
+  },
+  {
+    "id": 10,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which method in an HTTP request is used to submit data to be processed to a specified resource?",
+    "choices": ["GET", "POST", "DELETE", "PUT"],
+    "correctAnswer": "POST",
+    "explanation": "POST is a request method supported by HTTP used to send data to a server to create/update a resource."
+  },
+  {
+    "id": 11,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which is the correct way to check if a JavaScript variable is not a number?",
+    "choices": [
+      "isNaN(variable)",
+      "variable == NaN",
+      "variable != number",
+      "variable === NaN"
+    ],
+    "correctAnswer": "isNaN(variable)",
+    "explanation": "In JavaScript, 'isNaN()' function determines whether a value is NaN or not. Note, coercion inside the isNaN function is a source of confusion as the rules of coercion are complicated. So, always use it carefully."
+  },
+  {
+    "id": 12,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "Which feature primarily differentiates JavaScript classes from ES5 constructor functions?",
+    "choices": [
+      "Instance methods",
+      "Static methods",
+      "Prototypes",
+      "The 'constructor' keyword"
+    ],
+    "correctAnswer": "The 'constructor' keyword",
+    "explanation": "One of the primary differences is the use of the 'constructor' keyword. In JavaScript ES6, the 'constructor' keyword inside a class is where you define the class object's initial properties and methods."
+  },
+  {
+    "id": 13,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "How does JavaScript's event loop work?",
+    "choices": [
+      "It executes all events in the call stack first before handling any event in the event queue",
+      "It continuously checks the call stack and the event queue. If the call stack is empty, it adds the first event in the queue to the call stack",
+      "It prioritizes events in the event queue over those in the call stack",
+      "It executes events based on their priority ranking"
+    ],
+    "correctAnswer": "It continuously checks the call stack and the event queue. If the call stack is empty, it adds the first event in the queue to the call stack",
+    "explanation": "The JavaScript event loop continuously checks the call stack and the event queue. If the call stack is empty, it takes the first event from the queue and pushes it to the call stack, which effectively runs it."
+  },
+  {
+    "id": 14,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What will be the output of the following code: 'console.log([1,2,3,4].reduce((x, y) => x + y, 10));'?",
+    "choices": ["'10'", "'20'", "'10,1,2,3,4'", "'[10,1,2,3,4]'"],
+    "correctAnswer": "'20'",
+    "explanation": "The reduce() method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value. The starting value is 10 and then each value is added to it to get the final result of 20."
+  },
+  {
+    "id": 15,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What will be the output of the following code: 'console.log(0.1 + 0.2 === 0.3);'?",
+    "choices": ["True", "False", "0.30000000000000004", "NaN"],
+    "correctAnswer": "False",
+    "explanation": "This will output 'false' due to floating point precision in JavaScript. The sum of 0.1 and 0.2 actually returns 0.30000000000000004 and not 0.3."
+  },
+  {
+    "id": 16,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is the result of '2+'2' in JavaScript?",
+    "choices": ["4", "'4'", "'22'", "TypeError"],
+    "correctAnswer": "'22'",
+    "explanation": "In JavaScript, if you use + operator with a number and a string, the number is treated as a string and concatenated."
+  },
+  {
+    "id": 17,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is 'hoisting' in JavaScript?",
+    "choices": [
+      "Moving function declarations to the top of the scope",
+      "Moving variable declarations to the top of the scope",
+      "All of these",
+      "None of these"
+    ],
+    "correctAnswer": "All of these",
+    "explanation": "Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope before the code has been executed."
+  },
+  {
+    "id": 18,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What does the following expression return: '[] + []'?",
+    "choices": ["[]", "0", "''", "NaN"],
+    "correctAnswer": "''",
+    "explanation": "The '+' operator triggers the .toString() method of arrays, which return a string of comma-separated values. Since both arrays are empty, they are converted into empty strings. When these two empty strings are concatenated, the result is another empty string."
+  },
+  {
+    "id": 19,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is the output of 'console.log(2 + '2')' in JavaScript?",
+    "choices": ["4", "'4'", "'22'", "NaN"],
+    "correctAnswer": "'22'",
+    "explanation": "When a number (2) is added to a string ('2'), JavaScript treats the number as a string and concatenates them, resulting in a string '22'."
+  },
+  {
+    "id": 20,
+    "category": "JavaScript",
+    "difficulty": "Hard",
+    "question": "What is the result of 'console.log(1 + true)' in JavaScript?",
+    "choices": ["1", "2", "true", "'1true'"],
+    "correctAnswer": "2",
+    "explanation": "In JavaScript, the boolean value 'true' is coerced into its numeric equivalent when used in a numeric operation. Thus, '1 + true' becomes '1 + 1', resulting in 2."
+  }
+]

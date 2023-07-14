@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "How do you apply a class '.myStyle' only on hover?",
+    "choices": [
+      ".myStyle:hover",
+      ".myStyle hover",
+      "hover.myStyle",
+      "hover .myStyle"
+    ],
+    "correctAnswer": ".myStyle:hover",
+    "explanation": "The ':hover' pseudo-class in CSS selects elements when the mouse cursor is over them."
+  },
+  {
+    "id": 2,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which property is used to create space between the element's border and inner content?",
+    "choices": ["margin", "padding", "border", "spacing"],
+    "correctAnswer": "padding",
+    "explanation": "The 'padding' property in CSS is used to create space around content, inside of any defined borders."
+  },
+  {
+    "id": 3,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which of the following is a way to create a CSS variable?",
+    "choices": [
+      "--main-color: blue;",
+      "$main-color: blue;",
+      "@main-color: blue;",
+      "var main-color: blue;"
+    ],
+    "correctAnswer": "--main-color: blue;",
+    "explanation": "CSS variables are created using '--' followed by the variable name. They can then be used in the stylesheet with the 'var()' function."
+  },
+  {
+    "id": 4,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "What is the use of the !important declaration in CSS?",
+    "choices": [
+      "It gives a style top priority",
+      "It makes a style invalid",
+      "It hides a style",
+      "None of these"
+    ],
+    "correctAnswer": "It gives a style top priority",
+    "explanation": "The '!important' rule in CSS is used to make certain property values override others. If a value for a certain property has '!important' appended to it, it gets top priority."
+  },
+  {
+    "id": 5,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "What is a CSS preprocessor?",
+    "choices": [
+      "A program that converts CSS to HTML",
+      "A program that converts CSS into JavaScript",
+      "A program that generates CSS from its own unique syntax",
+      "A program that validates CSS"
+    ],
+    "correctAnswer": "A program that generates CSS from its own unique syntax",
+    "explanation": "A CSS preprocessor is a scripting language that extends the default capabilities of CSS. It allows developers to use variables, nesting, functions and operators, among other features. The preprocessor then compiles this into standard CSS syntax."
+  },
+  {
+    "id": 6,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "What does the 'clearfix' hack do?",
+    "choices": [
+      "Positions an element in the center",
+      "Fixes the issue of parent element not expanding to include the floating child elements",
+      "Applies clear:both to all elements",
+      "None of these"
+    ],
+    "correctAnswer": "Fixes the issue of parent element not expanding to include the floating child elements",
+    "explanation": "The 'clearfix' hack is a popular method to cause a container to expand to include the height of floating child elements."
+  },
+  {
+    "id": 7,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which property specifies the stacked order of an element?",
+    "choices": ["stack-order", "z-index", "order", "layer"],
+    "correctAnswer": "z-index",
+    "explanation": "The 'z-index' property in CSS specifies the stack order of an element. An element with greater stack order is always in front of another element with lower stack order."
+  },
+  {
+    "id": 8,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which CSS property controls the text size?",
+    "choices": ["text-size", "font-size", "text-style", "font-style"],
+    "correctAnswer": "font-size",
+    "explanation": "The 'font-size' property is used in CSS and certain HTML elements. It specifies the size, or height, of the font. Values can be in length, percentages, or relative size."
+  },
+  {
+    "id": 9,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which of the following values can the 'align-items' property in CSS Flexbox take?",
+    "choices": ["top", "right", "baseline", "center"],
+    "correctAnswer": "baseline",
+    "explanation": "The 'align-items' property in CSS Flexbox can take the following values: 'stretch', 'center', 'flex-start', 'flex-end', 'baseline'."
+  },
+  {
+    "id": 10,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which pseudo-class selects only the first child of an element?",
+    "choices": [
+      ":first-child",
+      ":first-of-type",
+      ":first-line",
+      ":first-letter"
+    ],
+    "correctAnswer": ":first-child",
+    "explanation": "The ':first-child' pseudo-class in CSS matches the first child of some other element."
+  },
+  {
+    "id": 11,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "What does the 'calc()' function do in CSS?",
+    "choices": [
+      "It performs a calculation and uses the result as the value of a CSS property",
+      "It calculates the specific color value",
+      "It calculates the time it takes for an animation to complete",
+      "It determines the height and width of an element"
+    ],
+    "correctAnswer": "It performs a calculation and uses the result as the value of a CSS property",
+    "explanation": "The 'calc()' function in CSS allows you to perform calculations to determine CSS property values."
+  },
+  {
+    "id": 12,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "How do you apply a linear gradient in CSS?",
+    "choices": [
+      "background: linear-gradient(direction, color-stop1, color-stop2, ...);",
+      "background: gradient-linear(direction, color-stop1, color-stop2, ...);",
+      "background: linear(color-stop1, color-stop2, ...);",
+      "None of these"
+    ],
+    "correctAnswer": "background: linear-gradient(direction, color-stop1, color-stop2, ...);",
+    "explanation": "In CSS, a linear gradient is created by using the 'linear-gradient()' function. It is specified with two or more color stops, and the direction along which the gradient should occur."
+  },
+  {
+    "id": 13,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which property allows you to control the smoothness of animated transitions?",
+    "choices": [
+      "smoothness",
+      "transition",
+      "animation-timing",
+      "transition-timing-function"
+    ],
+    "correctAnswer": "transition-timing-function",
+    "explanation": "The 'transition-timing-function' property in CSS allows you to control the speed of the transition over its duration. It can give the transition a feeling of acceleration or deceleration."
+  },
+  {
+    "id": 14,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which property specifies how much of the region outside the padding should be clipped?",
+    "choices": ["clip", "overflow", "border-box", "clip-path"],
+    "correctAnswer": "clip-path",
+    "explanation": "The 'clip-path' property in CSS allows you to clip parts of an element if they are outside the area specified by the path."
+  },
+  {
+    "id": 15,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "How can you create a rounded border using CSS?",
+    "choices": [
+      "Use the 'border-round' property",
+      "Use the 'border-radius' property",
+      "Use the 'border-circle' property",
+      "Use the 'border-curve' property"
+    ],
+    "correctAnswer": "Use the 'border-radius' property",
+    "explanation": "The 'border-radius' property in CSS is used to add rounded borders to an element."
+  },
+  {
+    "id": 16,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "What does the CSS rule 'display: none' do?",
+    "choices": [
+      "It hides an element, and it will not take up any space",
+      "It hides an element, but it will still take up space",
+      "It shows an element",
+      "None of these"
+    ],
+    "correctAnswer": "It hides an element, and it will not take up any space",
+    "explanation": "'display: none' in CSS hides the element, and it does not take up any space. It is as if the element is not present in the document."
+  },
+  {
+    "id": 17,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "Which value of 'position' property is not valid in CSS?",
+    "choices": ["static", "absolute", "fixed", "normal"],
+    "correctAnswer": "normal",
+    "explanation": "In CSS, the 'position' property can have the following values: 'static', 'relative', 'absolute', 'fixed', and 'sticky'. There is no 'normal' value."
+  },
+  {
+    "id": 18,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "What does '100vh' mean in CSS?",
+    "choices": [
+      "100% of the viewport's height",
+      "100% of the viewport's width",
+      "100 pixels of the viewport's height",
+      "100 pixels of the viewport's width"
+    ],
+    "correctAnswer": "100% of the viewport's height",
+    "explanation": "In CSS, 'vh' stands for 'viewport height' and represents a percentage of the current viewport height. 100vh is 100% of the viewport's height."
+  },
+  {
+    "id": 19,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between 'visibility: hidden' and 'display: none'?",
+    "choices": [
+      "'visibility: hidden' hides an element, but it will still take up space. 'display: none' hides an element, and it will not take up any space",
+      "'visibility: hidden' hides an element, and it will not take up any space. 'display: none' hides an element, but it will still take up space",
+      "Both hide an element, but 'visibility: hidden' is not supported in all browsers",
+      "There is no difference"
+    ],
+    "correctAnswer": "'visibility: hidden' hides an element, but it will still take up space. 'display: none' hides an element, and it will not take up any space",
+    "explanation": "'visibility: hidden' hides the element, but it still takes up space in the layout. 'display: none' hides the element, and it does not take up any space. It is as if the element is not present in the document."
+  },
+  {
+    "id": 20,
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "question": "How can you specify the opacity of an element in CSS?",
+    "choices": [
+      "Using the 'transparent' property",
+      "Using the 'opacity' property",
+      "Using the 'alpha' property",
+      "Using the 'visibility' property"
+    ],
+    "correctAnswer": "Using the 'opacity' property",
+    "explanation": "The 'opacity' property in CSS specifies the transparency of an element."
+  }
+]
