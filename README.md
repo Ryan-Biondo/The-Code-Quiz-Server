@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project is a web server that provides an API to serve quiz data to The Code Quiz client. The server is built with Node.js and Express.js, and it handles requests from our web client, and sends responses.
+This project is a web server that provides an API to serve quiz data to The Code Quiz client. The server is built with Node.js and Express.js, and it handles requests from our web client, and sends responses. You can view the live version of the application [here](https://www.thecodequiz.com).
 
 The client can be found here:
 https://github.com/Ryan-Biondo/The-Code-Quiz-Client
