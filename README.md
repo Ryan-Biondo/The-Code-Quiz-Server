@@ -21,26 +21,28 @@ This project is a web server that provides an API to serve quiz data to The Code
 
 Here is a high-level overview of the project's structure:
 
-|server
-|├── .gitignore
-|├── data
-|│ ├── css
-|│ │ ├── easy.json
-|│ │ ├── hard.json
-|│ │ └── intermediate.json
-|│ └── javascript
-|│ ├── easy.json
-|│ ├── hard.json
-|│ └── intermediate.json
-|├── demo.gif
-|├── LICENSE
-|├── node_modules
-|│ ├── ...
-|├── package-lock.json
-|├── package.json
-|├── procfile
-|├── README.md
-|└── server.js
+```
+server
+├── .gitignore
+├── data
+│ ├── css
+│ │ ├── easy.json
+│ │ ├── hard.json
+│ │ └── intermediate.json
+│ └── javascript
+│ ├── easy.json
+│ ├── hard.json
+│ └── intermediate.json
+├── demo.gif
+├── LICENSE
+├── node_modules
+│ ├── ...
+├── package-lock.json
+├── package.json
+├── procfile
+├── README.md
+└── server.js
+```
 
 ## **Development Process**
 
