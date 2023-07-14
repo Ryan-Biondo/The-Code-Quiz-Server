@@ -21,30 +21,36 @@ This project is a web server that provides an API to serve quiz data to The Code
 
 Here is a high-level overview of the project's structure:
 
-server
-├── .gitignore
-├── data
-│ ├── css
-│ │ ├── easy.json
-│ │ ├── hard.json
-│ │ └── intermediate.json
-│ └── javascript
-│ ├── easy.json
-│ ├── hard.json
-│ └── intermediate.json
-├── demo.gif
-├── LICENSE
-├── node_modules
-│ ├── ...
-├── package-lock.json
-├── package.json
-├── procfile
-├── README.md
-└── server.js
+|server
+|├── .gitignore
+|├── data
+|│ ├── css
+|│ │ ├── easy.json
+|│ │ ├── hard.json
+|│ │ └── intermediate.json
+|│ └── javascript
+|│ ├── easy.json
+|│ ├── hard.json
+|│ └── intermediate.json
+|├── demo.gif
+|├── LICENSE
+|├── node_modules
+|│ ├── ...
+|├── package-lock.json
+|├── package.json
+|├── procfile
+|├── README.md
+|└── server.js
 
 ## **Development Process**
 
-_Discuss your process, challenges, and solutions here..._
+Project Organization: Primary task involved creating and organizing multiple components of a project. We also needed to split a monolithic application into a client-server model, creating effective coordination and synchronization between the two parts.
+
+Quiz Questions: Formatted quiz questions in a structured manner, ensuring the elimination of options like "Both a and b" and "None of the above". This was done to accommodate the randomization of quiz options and prevent any ambiguity in answers.
+
+GitHub and Heroku Deployment: Dealt with unrelated Git histories and ensuring that the latest changes were effectively reflected in the Heroku app.
+
+RESTful API Understanding: We delved into understanding the principles of RESTful APIs, which is crucial for the development and usage of modern web applications. This involved discussing CRUD operations, HTTP methods, status codes, and more.
 
 ## **Future Enhancements**
 
