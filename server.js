@@ -13,6 +13,9 @@ const fs = require('fs');
 // Create an instance of an express application
 const app = express();
 
+// Helmet helps you secure your Express apps by setting various HTTP headers
+const helmet = require('helmet');
+
 // Throttling with express-rate-limit
 const rateLimit = require('express-rate-limit');
 
@@ -21,6 +24,13 @@ const apiLimiter = rateLimit({
   max: 100, // Limit each IP to 100 requests per windowMs
   message: 'Too many requests from this IP, please try again later.',
 });
+
+// Body parser
+app.use(express.json({ limit: '1kb' })); // For JSON payloads
+app.use(express.urlencoded({ limit: '1kb' })); // For URL-encoded payloads
+
+// Initialize helmet
+app.use(helmet());
 
 // Apply the rate limiting middleware to API endpoints
 app.use('/data/', apiLimiter);
