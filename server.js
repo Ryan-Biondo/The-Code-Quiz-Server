@@ -14,14 +14,7 @@ const fs = require('fs');
 const app = express();
 
 // Use CORS middleware on the application, to allow cross-origin requests
-app.use(
-  cors({
-    origin: 'https://www.thecodequiz.com', // replace with your client's domain
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true,
-    optionsSuccessStatus: 204,
-  })
-);
+app.use(cors());
 
 // Handle GET requests to '/api/:category/:difficulty'
 app.get('/api/:category/:difficulty', (req, res) => {
@@ -40,12 +33,12 @@ app.get('/api/:category/:difficulty', (req, res) => {
   fs.readFile(dataFilePath, 'utf8', (err, data) => {
     // If an error occurred, log it and send a 500 response
     if (err) {
-      if (err.code === 'ENOENT') {
-        return res.status(404).json({ error: 'File not found' });
-      } else {
-        console.error(err);
-        return res.status(500).send('Server error');
-      }
+      console.error(err);
+      res.status(500).send('Server error');
+    }
+    // If no error occurred, parse the data and send it
+    else {
+      res.json(JSON.parse(data));
     }
   });
 });

@@ -1,3 +1,0 @@
-{
-  "routes": [{ "src": "/quiz-api/(.*)", "dest": "/server.js" }]
-}
