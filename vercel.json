@@ -1,16 +1,4 @@
 {
-  "headers": [
-    {
-      "source": "/api/:path*",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://www.thecodequiz.com"
-        },
-        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" }
-      ]
-    }
-  ],
   "routes": [
     {
       "src": "/api/(.*)",
