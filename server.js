@@ -33,12 +33,12 @@ app.get('/api/:category/:difficulty', (req, res) => {
   fs.readFile(dataFilePath, 'utf8', (err, data) => {
     // If an error occurred, log it and send a 500 response
     if (err) {
-      console.error(err);
-      res.status(500).send('Server error');
-    }
-    // If no error occurred, parse the data and send it
-    else {
-      res.json(JSON.parse(data));
+      if (err.code === 'ENOENT') {
+        return res.status(404).json({ error: 'File not found' });
+      } else {
+        console.error(err);
+        return res.status(500).send('Server error');
+      }
     }
   });
 });
