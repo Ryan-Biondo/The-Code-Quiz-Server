@@ -18,7 +18,7 @@ https://github.com/Ryan-Biondo/The-Code-Quiz-Client
 
 ## **Features**
 
-- Hosted with Heroku
+- Hosted with Vercel
 
 ## **Project Structure**
 
@@ -52,8 +52,6 @@ server
 - Project Organization: Primary task involved creating and organizing multiple components of a project. We also needed to split a monolithic application into a client-server model, creating effective coordination and synchronization between the two parts.
 
 - Quiz Questions: Formatted quiz questions in a structured manner, ensuring the elimination of options like "Both a and b" and "None of the above". This was done to accommodate the randomization of quiz options and prevent any ambiguity in answers.
-
-- Heroku Deployment: Dealt with unrelated Git histories and ensuring that the latest changes were effectively reflected in the Heroku app.
 
 - More development process at https://github.com/Ryan-Biondo/The-Code-Quiz-Client
 
