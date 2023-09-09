@@ -13,6 +13,17 @@ const fs = require('fs');
 // Create an instance of an express application
 const app = express();
 
+// Throttling with express-rate-limit
+const rateLimit = require('express-rate-limit');
+
+const apiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per windowMs
+  message: 'Too many requests from this IP, please try again later.',
+});
+
+// Apply the rate limiting middleware to API endpoints
+app.use('/api/', apiLimiter);
 // Use CORS middleware on the application, to allow cross-origin requests
 app.use(cors());
 
