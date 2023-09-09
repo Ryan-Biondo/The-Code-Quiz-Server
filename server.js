@@ -14,7 +14,14 @@ const fs = require('fs');
 const app = express();
 
 // Use CORS middleware on the application, to allow cross-origin requests
-app.use(cors());
+app.use(
+  cors({
+    origin: 'https://www.thecodequiz.com', // replace with your client's domain
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+    optionsSuccessStatus: 204,
+  })
+);
 
 // Handle GET requests to '/api/:category/:difficulty'
 app.get('/api/:category/:difficulty', (req, res) => {
