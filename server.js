@@ -23,7 +23,7 @@ const apiLimiter = rateLimit({
 });
 
 // Apply the rate limiting middleware to API endpoints
-app.use('/api/', apiLimiter);
+app.use('/data/', apiLimiter);
 // Use CORS middleware on the application, to allow cross-origin requests
 app.use(cors());
 
